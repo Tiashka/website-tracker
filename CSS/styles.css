@@ -1,14 +1,25 @@
 #animatedDiv{
-    width: fit-content;
-    height: 10px;
+    width: 100px;
+    height: 25px;
     background: rgba(48, 48, 46, 0.37);
     position: relative;
-    animation-name: divSlideAnimation;
+  /*  animation-name: divSlideAnimation;
     animation-duration: 1s;  
-    animation-delay: 0s;
+    animation-delay: 0s;*/
+
+    transition: width 1s ease-out;
   }
   
   @keyframes divSlideAnimation {
-    from {left: 0px; background-color: rgba(48, 48, 46, 0.37);}
+    from {left: 0px;}
     to {left: 100%;}
+  }
+
+  #animatedDiv:hover{
+    width: 80%;
+  }
+
+  .BrSmall{
+    display: block;
+    margin-bottom: 0.5em;
   }

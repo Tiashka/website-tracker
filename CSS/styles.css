@@ -1,0 +1,14 @@
+#animatedDiv{
+    width: fit-content;
+    height: 10px;
+    background: rgba(48, 48, 46, 0.37);
+    position: relative;
+    animation-name: divSlideAnimation;
+    animation-duration: 1s;  
+    animation-delay: 0s;
+  }
+  
+  @keyframes divSlideAnimation {
+    from {left: 0px; background-color: rgba(48, 48, 46, 0.37);}
+    to {left: 100%;}
+  }

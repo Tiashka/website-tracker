@@ -1,6 +1,6 @@
 #animatedDiv{
-    width: 100px;
-    height: 25px;
+    width: 200px;
+    height: 45px;
     background: rgba(48, 48, 46, 0.37);
     position: relative;
   /*  animation-name: divSlideAnimation;
@@ -8,6 +8,7 @@
     animation-delay: 0s;*/
 
     transition: width 1s ease-out;
+    text-align: center;
   }
   
   @keyframes divSlideAnimation {
@@ -16,12 +17,12 @@
   }
 
   #animatedDiv:hover{
-    width: 80%;
+    width: 100%;
   }
 
   .BrSmall{
     display: block;
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
   }
 
 
